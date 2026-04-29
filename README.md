@@ -29,3 +29,6 @@ dir databaseConnection\target\classes\com\database
 mvn -f databaseConnection -DskipTests package
 
 java -jar databaseConnection\target\database-0.0.1-SNAPSHOT.war
+
+
+mvn spring-boot:run
