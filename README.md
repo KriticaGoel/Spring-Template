@@ -20,3 +20,7 @@ Rename pom.xml
 <name>new-project-name</name>
 
 application.properties
+
+
+mvn -f databaseConnection clean package -DskipTests
+dir databaseConnection\target\classes\com\database
